@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@android:drawable/bottom_bar"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_current_mac"
+            android:id="@+id/lblCurrentMac" android:textStyle="bold" android:textSize="22sp"
+            android:textColor="@android:color/black"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMac" android:text="mac:" android:textSize="22sp" android:textColor="#86ff8b"/>
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@android:drawable/bottom_bar"
+            android:id="@+id/lstAddrs"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:background="@android:drawable/bottom_bar"
+            android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:background="@android:drawable/bottom_bar"
+                android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button
+                    android:id="@+id/btnReset"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:text="@string/reset"
+                    android:layout_weight="1.0"/>
+            <Button
+                    android:id="@+id/btnApply"
+                    android:layout_width="0.0dip" android:layout_height="fill_parent"
+                    android:text="@string/apply"
+                    android:layout_weight="1.0"/>
+        </LinearLayout>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_add"
+                android:id="@+id/btnAdd"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+*storage*
+(ns com.ifree.common.main)
+*storage*
+(fetch-macs)
+(get-shared-preferences *storage* :private)
+(.getStringSet (get-shared-preferences *storage* :private) *storage-key* ${})
+(.getStringSet (get-shared-preferences *storage* :private) *storage-key* #{})
+(let [macs (new HashSet)
+prefs (get-shared-preferences *storage* :private)]
+(.getStringSet prefs *storage-key* macs)
+macs
+)
+(print 123)

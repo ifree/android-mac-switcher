@@ -1,0 +1,19 @@
+/Users/ifree/Dev/repos/android-mac-switch/gen/com/ifree/common/R.java \
+ : /Users/ifree/Dev/repos/android-mac-switch/res/anim/splash_rotation.xml \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable/splash_background.xml \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-hdpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-hdpi/splash_circle.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-hdpi/splash_droid.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-hdpi/splash_hands.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-ldpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/drawable-mdpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/res/layout/main.xml \
+/Users/ifree/Dev/repos/android-mac-switch/res/layout/splashscreen.xml \
+/Users/ifree/Dev/repos/android-mac-switch/res/values/strings.xml \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-hdpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-hdpi/splash_circle.png \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-hdpi/splash_droid.png \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-hdpi/splash_hands.png \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-ldpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/target/res/drawable-mdpi/ic_launcher.png \
+/Users/ifree/Dev/repos/android-mac-switch/AndroidManifest.xml \
